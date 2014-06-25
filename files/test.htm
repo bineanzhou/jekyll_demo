@@ -1,0 +1,36 @@
+锘�
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="viewport" content="initial-scale=1.0, width=device-width, height=device-height, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>aa</title>
+
+        <script>
+			function loadDone(configs){
+					
+			}
+			
+			function loadDone1(configs){
+					document.getElementById('text1').value = configs;
+			}
+			
+			function send2Android(){		
+			 	window.lotteryJs.runOnJavaScript(JSON.stringify({\n \"version\":\"10\",\n \"url\":\"http:\/\/cp.360.cn\/activity\/bjcz\/?a=lb\",\n \"msg\":\"\u5317\u4eac\u94f6\u884c\u5145\u503c\u9001\u5f69\u91d1\"\n}));
+			}
+		</script>
+		
+		
+
+</head>
+
+<body>
+	<center>
+   		<input type="text" id="text1" value="aa"/>
+
+        <input type="button" id="button" value="activity" onclick="send2Android()"/>
+    </center>
+</body>
+</html>
+
